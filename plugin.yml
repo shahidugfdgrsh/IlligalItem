@@ -1,0 +1,13 @@
+name: IllegalItemRemover
+version: 1.0
+main: me.narutopro.illegalitemremover.IllegalItemRemover
+api-version: 1.21
+commands:
+  versionillegalitemremover:
+    description: Shows plugin version and author
+    usage: /versionillegalitemremover
+permissions:
+  anticheat.alert:
+    description: Receive alerts for illegal items
+    default: op
+    
